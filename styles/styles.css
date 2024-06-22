@@ -10,7 +10,6 @@ body {
   line-height: 1.6;
   background-color: #f4f4f4;
   color: #333;
-  padding-bottom: 50px; /* Prevents footer from overlapping content */
 }
 
 /* Header styles */
@@ -41,6 +40,26 @@ header nav ul li a:hover {
   color: #ff6347;
 }
 
+/* Hero section styles */
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* Main content styles */
 main {
   max-width: 1000px;
@@ -57,35 +76,16 @@ main h1 {
   color: #333;
 }
 
+main h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #333;
+}
+
 main p {
   margin-bottom: 20px;
   font-size: 1.1em;
   line-height: 1.8;
 }
 
-/* Footer styles */
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1);
-}
-
-/* Button styles */
-button {
-  background-color: #ff6347;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  font-size: 1em;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-button:hover {
-  background-color: #ff4500;
-}
+/*
