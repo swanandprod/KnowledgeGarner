@@ -1,0 +1,5 @@
+.DS_Store
+.next/
+**/*.node
+node_modules/
+node_modules/
