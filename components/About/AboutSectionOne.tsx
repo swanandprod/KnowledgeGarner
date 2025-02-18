@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Aspiring Product Managers, Startups and  ."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title=" Crafted for Product people who love to Reinvent and Optimize Products"
+                paragraph="At KnowledgeGarner, we help product managers and teams breathe new life into stagnant products, optimize portfolios, and make bold strategic decisions. Whether you’re revitalizing, repositioning, or sunsetting a product, our insights and frameworks guide you through every step. If you thrive on innovation, growth, and smart product evolution, you’re in the right place. 🚀"
                 mb="44px"
               />
 
